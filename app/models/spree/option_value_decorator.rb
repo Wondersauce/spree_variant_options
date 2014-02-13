@@ -1,6 +1,6 @@
 Spree::OptionValue.class_eval do
 
-  attr_accessible :image, :color
+  #attr_accessible :image, :color
   serialize :metadata, Hash
 
   has_attached_file :image,
