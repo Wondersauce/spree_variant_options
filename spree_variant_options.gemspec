@@ -20,10 +20,10 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   # Runtime
-  s.add_dependency('spree_core', '~> 2.0')
-  s.add_dependency('spree_api', '~> 2.0')
-  s.add_dependency('spree_frontend', '~> 2.0')
-  s.add_dependency('spree_backend',  '~> 2.0')
+  s.add_dependency('spree_core', '~> 2.1.4')
+  s.add_dependency('spree_api', '~> 2.1.4')
+  s.add_dependency('spree_frontend', '~> 2.1.4')
+  s.add_dependency('spree_backend',  '~> 2.1.4')
   s.add_dependency('spectrum-rails')
 
   # Development
@@ -37,7 +37,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency('cucumber-rails',   '~> 1.2')
   s.add_development_dependency('database_cleaner', '~> 0.6')
   s.add_development_dependency('sqlite3',          '~> 1.3')
-  s.add_development_dependency('coffee-rails',     '~> 3.2')
+  s.add_development_dependency('coffee-rails',     '~> 4.0.1')
   s.add_development_dependency('capybara')
   s.add_development_dependency('launchy')
   s.add_development_dependency('database_cleaner')
