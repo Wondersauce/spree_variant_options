@@ -2,7 +2,8 @@ Spree::Variant.class_eval do
   
   include ActionView::Helpers::NumberHelper
   
-  attr_accessible :option_values
+  #  
+  # attr_accessible :option_values
   
   def to_hash
     actual_price  = self.price
